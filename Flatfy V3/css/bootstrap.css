@@ -236,10 +236,6 @@ th {
   }
   .navbar {
     display: none;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
   }
   .table td,
   .table th {
@@ -294,6 +290,7 @@ a {
   color: #18bc9c;
   text-decoration: none;
 }
+
 a:hover,
 a:focus {
   color: #18bc9c;
@@ -2297,7 +2294,7 @@ fieldset[disabled] .btn-danger.active {
 .btn-link:active,
 .btn-link[disabled],
 fieldset[disabled] .btn-link {
-  background-color: blue;
+  background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -3123,7 +3120,6 @@ input[type="button"].btn-block {
   .navbar-right .dropdown-menu {
     left: auto;
     right: 0;
-
   }
   .navbar-right .dropdown-menu-left {
     left: 0;
@@ -4286,18 +4282,18 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   top: -1px;
 }
 .label-default {
-  background-color: #214dfe;
+  background-color: #95a5a6;
 }
 .label-default[href]:hover,
 .label-default[href]:focus {
-  background-color: #107ffe;
+  background-color: #798d8f;
 }
 .label-primary {
   background-color: #2c3e50;
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #214dfe;
+  background-color: #1a242f;
 }
 .label-success {
   background-color: #18bc9c;
@@ -4333,7 +4329,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 3px 7px;
   font-size: 13px;
   font-weight: bold;
-  color: #107ffe;
+  color: #ffffff;
   line-height: 1;
   vertical-align: baseline;
   white-space: nowrap;
@@ -5868,7 +5864,7 @@ table-bordered > thead > tr > th,
 .table-bordered > thead > tr > th,
 table-bordered > tbody > tr > th,
 .table-bordered > tbody > tr > th,
-nbtable-bordered > tfoot > tr > th,
+table-bordered > tfoot > tr > th,
 .table-bordered > tfoot > tr > th,
 table-bordered > thead > tr > td,
 .table-bordered > thead > tr > td,
