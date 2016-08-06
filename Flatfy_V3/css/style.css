@@ -4773,3 +4773,13 @@ footer p {
 		
 		
 	}
+
+    .linkStyle{  /* changes the hyperlink style to color and underline */
+      text-decoration: underline;
+      color: #4eb6fe;
+    }
+
+    a:hover{ /* change the font of hyperlinks when its hovered over */
+      color:green;
+    }
+
