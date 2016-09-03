@@ -4783,3 +4783,17 @@ footer p {
       color:green;
     }
 
+    #modalClose{
+      float: right;
+      border: none;
+      background: none;
+      font-size: larger;
+      color: #000000;
+
+
+    }
+    .quali
+    {
+
+      color:#000000;
+    }
