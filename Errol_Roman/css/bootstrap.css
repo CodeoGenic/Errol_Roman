@@ -473,7 +473,6 @@ p {
   font-size: 17px;
   font-weight: 200;
   line-height: 1.4;
-
 }
 @media (min-width: 768px) {
   .lead {
@@ -5056,12 +5055,11 @@ a.list-group-item-danger.active:focus {
   border-radius: 3px;
 }
 .close {
-
   float: right;
   font-size: 22.5px;
   font-weight: bold;
   line-height: 1;
-  color: #64fe22;
+  color: #000000;
   text-shadow: none;
   opacity: 0.2;
   filter: alpha(opacity=20);
@@ -5151,18 +5149,14 @@ button.close {
 }
 .modal-header .close {
   margin-top: -2px;
-  color: black;
-
 }
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
-  color:#000000;
 }
 .modal-body {
   position: relative;
   padding: 20px;
-
 }
 .modal-footer {
   margin-top: 15px;
@@ -5182,7 +5176,7 @@ button.close {
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 800px;
+    width: 600px;
     margin: 30px auto;
   }
   .modal-content {
@@ -5963,14 +5957,14 @@ input:focus {
   text-decoration: none;
 }
 .close {
-  color: #64fe22;
+  color: #fff;
   text-decoration: none;
-  /*opacity: 0.4;*/
+  opacity: 0.4;
 }
 .close:hover,
 .close:focus {
-  color: #0620fe;
-  /*opacity: 1;*/
+  color: #fff;
+  opacity: 1;
 }
 .progress {
   height: 10px;
