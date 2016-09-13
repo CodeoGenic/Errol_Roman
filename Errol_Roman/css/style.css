@@ -4782,12 +4782,13 @@ footer p {
     a:hover{ /* change the font of hyperlinks when its hovered over */
       color:green;
     }
+    a:visited{
+      color: #4eb6fe;
+    }
 
     #modalClose{
       float: right;
       border: none;
       background: none;
       font-size: larger;
-
-
     }

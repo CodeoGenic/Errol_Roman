@@ -158,6 +158,7 @@ margin: auto;
 
 	letter-spacing: 6px;
 
+
 }
 
 
@@ -493,13 +494,15 @@ color: #ECEBEB;
 
 	padding-bottom: 50px;
 
-	color: #f8f8f8;
+	color: #f6ffde;
 
 	background: url(../img/intro/intro5.jpg) no-repeat center center;
 
 	background-size: cover;
 
 	text-align: center;
+
+
 
 }
 
@@ -2127,11 +2130,13 @@ color: #ECEBEB;
 
 			height: 100%;
 
+			width: 100%;
+
 			padding-top: 50px;
 
 			padding-bottom: 50px;
 
-		
+			position: relative;
 
 		    background: url(../img/intro/intro5.jpg) no-repeat center center; 
 
@@ -2139,7 +2144,7 @@ color: #ECEBEB;
 
 			text-align: center;
 
-			background-color: #34495e;
+			background-color: #f6ffde;
 
 		}
 
