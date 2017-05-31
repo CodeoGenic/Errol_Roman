@@ -3495,8 +3495,8 @@ fieldset[disabled] .twitter-typeahead .tt-hint {
   position: relative;
   text-align: left;
   width: 80px;
-  -webkit-mask: url('../images/switch/mask.png') 0 0 no-repeat;
-  mask: url('../images/switch/mask.png') 0 0 no-repeat;
+  /*-webkit-mask: url('../images/switch/mask.png') 0 0 no-repeat;*/
+  /*mask: url('../images/switch/mask.png') 0 0 no-repeat;*/
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -3587,8 +3587,8 @@ fieldset[disabled] .twitter-typeahead .tt-hint {
 }
 .switch-square {
   border-radius: 6px;
-  -webkit-mask: url('../images/switch/mask.png') 0 0 no-repeat;
-  mask: url('../images/switch/mask.png') 0 0 no-repeat;
+  /*-webkit-mask: url('../images/switch/mask.png') 0 0 no-repeat;*/
+  /*mask: url('../images/switch/mask.png') 0 0 no-repeat;*/
 }
 .switch-square > div.switch-off label {
   border-color: #7f8c9a;
@@ -3826,7 +3826,7 @@ fieldset[disabled] .twitter-typeahead .tt-hint {
   border-radius: 0 0 6px 6px;
 }
 .todo li {
-  background: #34495e url(../images/todo/todo.png) 92% center no-repeat;
+  /*background: #34495e url(../images/todo/todo.png) 92% center no-repeat;*/
   background-size: 20px 20px;
   cursor: pointer;
   font-size: 14px;
@@ -3845,7 +3845,7 @@ fieldset[disabled] .twitter-typeahead .tt-hint {
   padding-bottom: 21px;
 }
 .todo li.todo-done {
-  background: transparent url(../images/todo/done.png) 92% center no-repeat;
+  /*background: transparent url(../images/todo/done.png) 92% center no-repeat;*/
   background-size: 20px 20px;
   color: #1abc9c;
 }
@@ -4791,12 +4791,25 @@ footer p {
       color: #4eb6fe;
     }
 
-    a:hover{ /* change the font of hyperlinks when its hovered over */
-      color:green;
+
+     a:hover{ /* change the font of hyperlinks when its hovered over */
+      color:#32CD32;
+     }
+
+     a:visited{
+     color: #14a1fe;
+     }
+
+    a, .linkStyle1{
+      color: #14a1fe;
     }
-    a:visited{
-      color: #4eb6fe;
+
+
+
+    a.linkStyle1:hover{
+      color: #32CD32;
     }
+
 
     #modalClose{
       float: right;
