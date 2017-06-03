@@ -4800,7 +4800,7 @@ footer p {
      color: #14a1fe;
      }
 
-    a, .linkStyle1{
+    .linkStyle1:link{
       color: #14a1fe;
     }
 
