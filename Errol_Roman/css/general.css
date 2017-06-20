@@ -38,12 +38,12 @@ body, html {
 
 
 
-.abcen{position: absolute;bottom: 20%; width:100%;}
+.abcen{position: absolute;bottom: 15%; width:100%;}
 .design{width:30%;}
 
 @media screen and (max-width:1280px) and (orientation:landscape)
 {
-	.abcen{position: absolute;bottom: 20%;}
+	.abcen{position: absolute;bottom: 20%; width:100%;}
 	.design{width: 5%;}
 	.wow{font-size:100%;}
 
